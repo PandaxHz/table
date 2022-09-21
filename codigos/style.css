@@ -1,0 +1,83 @@
+body{
+  background-color: black;
+}
+
+h1 {
+  width: 100%;
+  text-align: center;
+  color: white;
+  margin: 50px 0;
+}
+
+.areaInput {
+  margin: 50px 0 10px;
+  color: white;
+}
+
+.areaInput input {
+  background-color: white;
+  border: none;
+}
+
+h3 {
+  width: 100%;
+  text-align: center;
+  margin: 0 auto;
+  color: white;
+}
+
+.filecontents {
+  border: double;
+  overflow-y: scroll;
+  width: 80%;
+  height: auto;
+  max-height: 300px;
+  display: flex;
+  justify-content: space-around;
+  padding: 10px 0;
+  margin: 0 auto 30px;
+  color: white;
+}
+
+.filecontentsTable {
+  border: double;
+  overflow-y: scroll;
+  width: 90.5vw;
+  height: auto;
+  max-height: 300px;
+  display: flex;
+  justify-content: space-around;
+  padding: 10px 0;
+  margin: 0 auto 30px;
+  padding: 0 10px;
+  color: white;
+}
+
+.pesquisa {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.areaPesquisa {
+  margin: 10px 0 10px;
+  color: white;
+}
+
+.pesquisa input {
+  margin: 0 auto;
+  color: white;
+}
+
+.dNone {
+  display: none;
+  color: white;
+}
+
+.dBlock {
+  display: block;
+  color: white;
+}

@@ -1,0 +1,39 @@
+body{
+     background-color: black; 
+}
+
+a[href="#top"]{
+    padding:10px;
+    position:fixed;
+    top: 90%;
+    right:40px;
+    display:none;
+    font-size: 30px;
+}
+a[href="#top"]:hover{
+    text-decoration:none;
+}
+
+h1{
+    color: white;
+}
+
+#valor{
+    width: 40vh;
+    height: 5vh;
+    border-radius: 10px;
+}
+
+.botao{
+    background-color: transparent;
+    color: white;
+}
+
+.colocar{
+    background-color: transparent;
+    color: white;
+    width: 10vh;
+    height: 5vh;
+    border-color: white;
+    border-radius: 10px;
+}
